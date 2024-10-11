@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aula-02</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Sofadi+One&display=swap" rel="stylesheet" />
+  </head>
+  <style>
+
+.caixinhas {
+      width: 50px;
+      height: 50px;
+      position: absolute;
+    }
+
+    #caixa1 {
+      background-color: red;
+      right: 0;
+    }
+
+    #caixa2 {
+      background-color: blue;
+      right: 0;
+      bottom: 0;
+    }
+
+    #caixa3 {
+      background-color: green;
+      left: 0;
+      bottom: 0;
+    }
+
+    #caixa4 {
+      background-color: yellow;
+      left: 0;
+    }
+
+    #caixa5 {
+      background-color: purple;
+      transform: rotate(45deg);
+      top: calc(50% - 25px);
+      left: calc(50% - 25px);
+
+      transition: width 1s, height 1s, ease-in-out 1s;
+      
+      /* transition-property: width, height; */
+      /* transition-duration: 1s; */
+      /* transition-timing-function: ease-in-out; */
+      /* transition-delay: 0.5s; */
+    }
+
+    #caixa5:hover {
+      width: 100px;
+      /* top: calc(50% - 50px); */
+      height: 100px;
+      /* left: calc(50% - 50px); */
+    }
+  </style>
+  <body>
+    <div class="caixinhas" id="caixa1"></div>
+    <div class="caixinhas" id="caixa2"></div>
+    <div class="caixinhas" id="caixa3"></div>
+    <div class="caixinhas" id="caixa4"></div>
+    <div class="caixinhas" id="caixa5"></div>
+  </body>
+</html>

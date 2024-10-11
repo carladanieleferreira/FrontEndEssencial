@@ -1,0 +1,74 @@
+#card {
+  margin: 20px;
+  width: 200px;
+  height: 300px;
+  border-radius: 5px;
+  border-color: gray;
+  border-style: solid;
+  border-width: 1px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 3px 5px 10px #0d6efd;
+}
+
+#image {
+  width: 180px;
+  height: 150px;
+}
+#card {
+  margin: 20px;
+  width: 200px;
+  height: 300px;
+  border-radius: 5px;
+  border-color: gray;
+  border-style: solid;
+  border-width: 1px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 3px 5px 10px #0d6efd;
+}
+
+#image {
+  width: 180px;
+  height: 150px;
+}
+
+#card2 {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+#title {
+  font-family: 'Sofadi One', cursive;
+  font-size: 24px;
+  color: #333;
+}
+
+#subtitle {
+  font-family: 'Sofadi One', cursive;
+  font-size: 14px;
+  color: #666;
+}
+
+#button {
+  font-family: 'Sofadi One', cursive;
+  font-size: 12px;
+  color: #fff;
+  width: 100px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #0a529b;
+}
+
+#button:hover {
+  background-color: red;
+  color: #000;
+  border: 1px solid #000;
+  cursor: hand;
+}

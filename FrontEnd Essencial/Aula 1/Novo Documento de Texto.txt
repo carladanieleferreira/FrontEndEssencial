@@ -1,0 +1,294 @@
+ndex 1
+<!-- para comentar aperta ctrl + ; apos escrever -->
+<!-- ctrl + k + c cria e desfaz o comentar -->
+
+<html>
+
+<body>
+    <!-- Tag de título = <h1> </h1> -->
+    <h1>
+        Hello Mundo, olá world!
+    </h1>
+
+</body>
+
+</html>
+
+index 2
+<!-- Aperta ! e seleciona o ! para criar um sample default -->
+<!DOCTYPE html>
+<html>
+
+<!-- head é para inserir meta tags, tipo as que informam 
+pro google que tal site fala sobre tal coisa -->
+<head>
+
+    <meta charset="UTF-8"> <!-- reconhecimento de caracteres dentro do site -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- essa facilita
+    a exibição em celulares, se adaptando dinamicamente a tela -->
+
+    <title>Aula-01</title> <!-- título do site -->
+
+</head>
+<body>
+
+    <div> <!-- div são caixinhas dentro de um site, tipo DIVisões e subDIVsões -->
+
+<!-- img é self close, ela se fecha nela mesma -->
+<img src='./back.png' alt='Imagem de background com nuvens nas cores e no formato da bandeira trans' />
+
+<!-- src = source = caminho da imagem a ser exibida -->
+<!-- digita ./ para exibir tudo que esteja no folder do projeto -->
+<!-- ../../../ vai navegando pelas pastas  -->
+<!--   -->
+<!-- o alt é também um auxilio para pessoas com deficiencia visual, ferramenta de inclusão -->
+
+</div>
+
+<h1>Hello Mundo, olá world!</h1> <!-- altera o tamanho do titulo 1 > 6 -->
+<h2>Olá mundo com tag h2</h2>
+<h3>Olá mundo com tag h3</h3>
+<h4>Olá mundo com tag h4</h4>
+<h5>Olá mundo com tag h5</h5>
+<h6>Olá mundo com tag h6</h6>
+
+<img src='./2b.jpg' alt="Imagem da personagem 2B do jogo Nier Automata 
+segurando um buquê com rosto feliz mas com lágrimas nos olhos"/>
+<p>Inserindo texto com a tag p</p> <!-- ele é tipo um paragrafo -->
+<span>Inserindo texto com tag span</span> <!-- essa tem mais liberdade -->
+
+
+</body>
+</html>
+
+index 3
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <div>
+        <img src="./jogo.jpg" alt="goleada"/>
+        <h2>Assista ao jogo pelo</h2>
+
+        <b>negrito</b>
+        <strong>negtrito</strong>
+        <span> 
+            Essa frase span contém um texto em <strong>negrito</strong> e em <b> negrito </b>  
+        </span>
+
+        <p>
+            Essa frase p contém um texto em <i> italico </i> e em <em> italico2 </em>
+        </p>
+
+        <p> Aproveite o desconto de <del>R$65,00</del> por R$23,00 na caneca de café! del 
+        deixa riscado o texto</p>
+
+
+    </div>
+
+    <!-- ol lista ordenada(lista numerada) | li itens da lista-->
+    <ol>
+        <li>Pão</li>
+        <li>Presunto</li>
+        <li>Queijo</li>
+        <li>Orégano</li>
+        <li>Molho de Tomate</li>
+    </ol>
+
+    <!-- ul lista não ordenada(não tem o numerozinho, só um •) | li itens da lista-->
+    <ul>
+        <li>Pão</li>
+        <li>Presunto</li>
+        <li>Queijo</li>
+        <li>Orégano</li>
+        <li>Molho de Tomate</li>
+    </ul>
+
+    <!-- dl lista descritiva | li itens da lista-->
+    <dl>
+        <dt>TITULO
+            <dd>ITEM 1</dd>
+            <dd>ITEM 2</dd>            
+        </dt>
+
+        <dt>
+            Frontend
+            <dd>Javascript</dd>
+            <dd>CSS</dd>            
+            <dd>HTML</dd>            
+        </dt>
+        
+        <dt>
+            Backend
+            <dd>Java</dd>
+            <dd>API</dd>            
+            <dd>Banco de Dados</dd>            
+        </dt>
+
+        <li>Pão</li>
+        <li>Presunto</li>
+        <li>Queijo</li>
+        <li>Orégano</li>
+        <li>Molho de Tomate</li>
+    </dl>
+
+
+    
+</body>
+</html>
+
+index 4
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aula-01</title>
+  </head>
+
+
+  <style>
+    #foto-perfil{
+      width: 300px;
+      height: 300px;
+      border-radius: 9999px;
+      background-size: cover;
+      opacity: 0.5;
+    }
+
+    #titulo {
+      background-color: dimgrey;
+    }
+
+    #imagemFundo{
+      background: url('./back.jpg') no-repeat;
+      background-size: cover;
+      opacity: 0.5;
+    }
+
+    .itemLista{
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: 20px;
+      letter-spacing: 5px;
+      color: #f00;
+    }
+
+    .paiLista {
+      width: 350px;
+      border: 10px dashed blue;
+    }
+  </style>
+
+  <body>
+    
+    <img id="foto-perfil" src="./back.jpg" alt="Imagem de perfil" />
+
+    <h1 id="titulo">Felipe Menegueli</h1>
+
+
+    <ul class="paiLista">
+      <li class="itemLista">Rua rio de janeiro</li>
+      <li class="itemLista">0</li>
+      <li class="itemLista">Itamarati</li>
+      <li class="itemLista">25400000</li>
+    </ul>
+
+    <ol>
+      <li class="itemLista">Rua rio de janeiro</li>
+      <li class="itemLista">0</li>
+      <li class="itemLista">Itamarati</li>
+      <li class="itemLista">25400000</li>
+    </ol>
+
+    <h2>Formação academica</h2>
+    <h3>Ensino medio completo</h3>
+    <h3>Cursando ensino superior</h3>
+    <h3>Atualmente trabalho na t2m test to market</h3>
+
+  </body>
+</html>
+</body>
+</html>
+
+index 3
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <div>
+        <img src="./jogo.jpg" alt="goleada"/>
+        <h2>Assista ao jogo pelo</h2>
+
+        <b>negrito</b>
+        <strong>negtrito</strong>
+        <span> 
+            Essa frase span contém um texto em <strong>negrito</strong> e em <b> negrito </b>  
+        </span>
+
+        <p>
+            Essa frase p contém um texto em <i> italico </i> e em <em> italico2 </em>
+        </p>
+
+        <p> Aproveite o desconto de <del>R$65,00</del> por R$23,00 na caneca de café! del 
+        deixa riscado o texto</p>
+
+
+    </div>
+
+    <!-- ol lista ordenada(lista numerada) | li itens da lista-->
+    <ol>
+        <li>Pão</li>
+        <li>Presunto</li>
+        <li>Queijo</li>
+        <li>Orégano</li>
+        <li>Molho de Tomate</li>
+    </ol>
+
+    <!-- ul lista não ordenada(não tem o numerozinho, só um •) | li itens da lista-->
+    <ul>
+        <li>Pão</li>
+        <li>Presunto</li>
+        <li>Queijo</li>
+        <li>Orégano</li>
+        <li>Molho de Tomate</li>
+    </ul>
+
+    <!-- dl lista descritiva | li itens da lista-->
+    <dl>
+        <dt>TITULO
+            <dd>ITEM 1</dd>
+            <dd>ITEM 2</dd>            
+        </dt>
+
+        <dt>
+            Frontend
+            <dd>Javascript</dd>
+            <dd>CSS</dd>            
+            <dd>HTML</dd>            
+        </dt>
+        
+        <dt>
+            Backend
+            <dd>Java</dd>
+            <dd>API</dd>            
+            <dd>Banco de Dados</dd>            
+        </dt>
+
+        <li>Pão</li>
+        <li>Presunto</li>
+        <li>Queijo</li>
+        <li>Orégano</li>
+        <li>Molho de Tomate</li>
+    </dl>
